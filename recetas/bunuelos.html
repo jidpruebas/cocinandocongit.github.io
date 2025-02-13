@@ -5,6 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receta de Bunuelos | Cocinando con Git</title>
     <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Estilo para el fondo y el texto general */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Estilo para el header */
+        .bunuelos-header {
+            background-color: #ff7f50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Contenedor general */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #333;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        /* Imagen de los buñuelos */
+        .bunuelos-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo para listas */
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 8px 0;
+            font-size: 1.1rem;
+        }
+
+        /* Estilo para los títulos */
+        strong {
+            font-size: 1.2rem;
+            color: #ff7f50;
+        }
+
+        /* Estilo para la preparación */
+        ol {
+            padding-left: 20px;
+        }
+
+        ol li {
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        /* Estilo del botón */
+        .btn {
+            display: inline-block;
+            background-color: #ff7f50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e06f43;
+        }
+
+        /* Responsividad para pantallas pequeñas */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            li {
+                font-size: 1rem;
+            }
+
+            .btn {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -13,6 +123,9 @@
     </header>
 
     <div class="container">
+        <!-- Imagen de los Buñuelos -->
+        <img src="https://antojandoando.com/wp-content/uploads/2015/12/bunuelos-papel-pq.jpg" alt="Buñuelos" class="bunuelos-image">
+
         <h2>¡Prepara unos deliciosos bunuelos!</h2>
         <p><strong>Ingredientes:</strong></p>
         <ul>
@@ -39,7 +152,6 @@
             <li>Bajar la temperatura a medio, no queremos que los buñuelos se doren muy rápido por fuera y queden crudos adentro o que se revienten.</li>
             <li>Se dejan dorar por todos los lados, ellos mismos dan la vuelta.</li>
             <li>Retirar y escurrir sobre hojas de papel de cocina.</li>
-
         </ol>
 
         <a href="../index.html" class="btn">⬅ Volver al inicio</a>
